@@ -309,6 +309,7 @@ comments:
     # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`.
     pageview: false
     lang: en
+    dark: auto
     # Custom emoji
     # emoji:
     #   - https://unpkg.com/@waline/emojis@1.1.0/weibo
@@ -677,7 +678,7 @@ plugins:
 
 
 style:
-  prefers_theme: light # auto / light / dark
+  prefers_theme: dark # auto / light / dark
   font-size:
     root: 16px # 改这个会影响全局所有文字的字号
     body: 17px # 影响正文区域的字号，如果改成 px 则不受 root 影响
